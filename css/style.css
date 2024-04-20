@@ -1,0 +1,206 @@
+body {
+    margin: 0 10px 0 10px;
+    color: #FEFAE0;
+    background-size: 100%;
+    background-color: #FEFAE0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #FEFAE0;
+    text-shadow: #0d0f61 3px 3px 5px, #cdeee4 0px 0px 8px;
+    box-shadow: #0d0f61 0 0 20px;
+    background-color: #CCD5AE;
+
+}
+
+header {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    transition-duration: 0.6s;
+}
+
+footer {
+    position: bottom;
+    border-radius: 15px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+ul {
+    padding: 5px;
+    margin: 10px;
+}
+
+li {
+    display: block;
+    text-align: left;
+    background-color: #FEFAE0;
+    box-shadow: #0d0f61 3px 3px 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: #ebe3c0 1px 1px 8px;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    transition-duration: 0.6s;
+
+}
+
+a {
+    text-decoration: none;
+    color: #7c7967;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    transition-duration: 0.6s;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    background-color: #CCD5AE;
+    color: #FEFAE0;
+    /* min-width: 200px; */
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: #0d0f61 3px 3px 5px;
+    text-shadow: #82924e 0px 0px 8px;
+    margin: 10px;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    transition-duration: 0.6s;
+}
+
+
+img,
+iframe,
+video {
+    background-color: #FAEDCD;
+    border-radius: 20px;
+    align-items: right;
+    padding: 8px;
+    width: 100%;
+    max-width: max-content;
+    box-shadow: #0d0f61 3px 3px 5px;
+    text-shadow: #0d0f61 0.5px 1px 2px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button {
+    background-color: #FEFAE0;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.button:hover {
+    background-color: #FAEDCD;
+    /* Green */
+}
+
+.container {
+    display: flex;
+    justify-content: baseline;
+    /* vertical-align: center; */
+    margin: 5px 20px;
+    align-items: flex-start;
+}
+
+.con_lp {
+    background-color: #CCD5AE;
+    color: #cdeee4;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: #0d0f61 3px 3px 5px;
+    text-shadow: #0d0f61 3px 3px 5px, #FEFAE0 0px 0px 8px;
+    margin: 5px 10px;
+}
+
+.con_r {
+    display: flex;
+    background-color: #FAEDCD;
+    border-radius: 20px;
+    align-items: center;
+    padding: 15px;
+    box-shadow: #0d0f61 3px 3px 5px, #FEFAE0 0px 0px 8px;
+    text-shadow: #0d0f61 0.5px 1px 2px;
+    margin: 5px 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 70%;
+    justify-content: space-evenly;
+}
+
+.min {
+    max-width: 37%;
+}
+
+.con_r a {
+    color: #FEFAE0;
+    text-decoration: underline;
+}
+
+@media (max-width: 1500px) {
+    a {
+        font-size: x-large;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    footer {
+        border-radius: 0;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .container {
+        margin: 5px 20px;
+        flex-direction: column;
+    }
+
+    .con_lp {
+        width: 100%;
+        margin: 5px 10px;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        padding: 0;
+    }
+
+    .con_r {
+        flex-direction: column;
+        width: 100%;
+        margin: 5px 10px;
+        padding: 0;
+    }
+
+    .min {
+        max-width: 80%;
+    }
+
+}
