@@ -1,2 +1,1 @@
-# prakt z 3 kursu. Tatarchuk Yurii
-# prakt
+# praktika z 3 kursu. Tatarchuk Yurii
